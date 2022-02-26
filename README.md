@@ -13,14 +13,10 @@ Website at: https://amitaskitchen.github.io
 ## Create site
 ```bash
 git clone ...repo...
-cd ...repo...
 mkdir tmp
 cd tmp
 jekyll new amitas-kitchen
-cd amitas-kitchen
-cp -rav * ../..
-cd ../..
-bundle exec jekyll serve
+### Copy over files from amitas-kitchen folder to main repo
 ```
 
 ## Run local
